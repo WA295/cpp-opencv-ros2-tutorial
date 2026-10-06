@@ -1,11 +1,59 @@
 # code_leran · 从零到项目：C++ / OpenCV / ROS 2 教程
 
+![License](https://img.shields.io/badge/License-MIT-blue)
+![C++](https://img.shields.io/badge/C%2B%2B-17-00599C?logo=cplusplus&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?logo=opencv&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS2-Jazzy-22314E?logo=ros&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white)
+
 > 这是一套**面向编程小白**的实战教程：从"什么是程序"讲到"能独立写一个机器人视觉节点"。
 > 内容分三大板块（**C++ / OpenCV / ROS 2**）+ 新手必读 + **练手项目** + **深入进阶** + 综合实战，
 > 全部按"为什么 → 怎么做 → 什么时候用"组织。
 >
 > **配套项目：** `~/campus_ws`（T-DT 校园赛视觉节点），教程里的例子大量来自这个真实项目。
 > **相关文档：** `~/campus_ws/TDT接口与main.cpp说明.md`（接口协议与代码核对）。
+
+---
+
+## 👀 适合谁看
+
+| 如果你 | 从这里开始 |
+| --- | --- |
+| 完全没写过代码 | `00-新手必读/` 两篇 → `01-C++/00` |
+| 会一点 C++，想学图像识别 | `02-OpenCV/00` 开始 |
+| 想做机器人/视觉项目 | `03-ROS2/00` 开始 |
+| 想快速上手写代码 | ⭐ `05-练手项目/00`（动手优先） |
+| 基础都会了，想更稳更准 | ⭐ `06-深入进阶/00` |
+| 已经在做校园赛项目 | `04-综合实战/00` + 仓库外的配套文档 |
+
+## 🚀 怎么开始（三步）
+
+```
+① 花 20 分钟读 00-新手必读/00-编程入门与项目开发逻辑.md
+      （建立"程序怎么来、问题怎么查"的认知）
+        ↓
+② 打开终端，跟着 05-练手项目/ 一个个敲代码
+      （每个项目都有完整可运行代码，改一改就跑）
+        ↓
+③ 遇到问题，查对应手册的"排错"和"速查表"
+      （每篇末尾都有"按需求查"）
+```
+
+## 🌍 English Introduction
+
+A hands-on tutorial series for **complete beginners** who want to go from zero
+to building real robotics vision projects.
+
+- **C++** — the language: syntax, standard library, common pitfalls
+- **OpenCV** — computer vision: image processing, contours, camera model & PnP, SVM digit recognition
+- **ROS 2** (Jazzy) — robotics communication: nodes, topics, QoS, custom messages, debugging
+
+Every topic follows the same pattern: *why → how → when to use*, with runnable
+examples, troubleshooting guides and look-up tables. All examples are drawn from
+a real project (T-DT Campus Game 2027 vision node).
+
+> **Learn by doing:** start with `05-练手项目/` (hands-on mini projects with
+> complete runnable code), then go deeper with `06-深入进阶/`.
 
 ---
 
