@@ -9,7 +9,7 @@
 
 | 概念 | 大白话 |
 | --- | --- |
-| 本地仓库 | 你电脑上的项目文件夹（比如 `~/code_leran`） |
+| 本地仓库 | 你电脑上的项目文件夹（比如 `~/code_learn`） |
 | 提交 commit | 给当前文件状态"拍一张存档照"（存在本地） |
 | 推送 push | 把本地存档上传到 GitHub（远程仓库） |
 
@@ -40,10 +40,10 @@ export HTTPS_PROXY=http://127.0.0.1:7890 HTTP_PROXY=http://127.0.0.1:7890
 
 ## 2. 已有仓库，更新并推送（最常用）
 
-**场景：** 改了 `code_leran` 里的文档，想同步到 GitHub。
+**场景：** 改了 `code_learn` 里的文档，想同步到 GitHub。
 
 ```bash
-cd ~/code_leran
+cd ~/code_learn
 
 export HTTPS_PROXY=http://127.0.0.1:7890 HTTP_PROXY=http://127.0.0.1:7890
 
