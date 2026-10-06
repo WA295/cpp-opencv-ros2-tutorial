@@ -1,0 +1,8 @@
+std_msgs/Header header
+tdt_interface/AutoAimState state
+sensor_msgs/CameraInfo camera_info
+
+sensor_msgs/Image image
+sensor_msgs/CompressedImage compressed_image
+
+float32 capture_to_publish_ms

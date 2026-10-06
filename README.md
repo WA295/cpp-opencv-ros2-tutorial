@@ -243,10 +243,11 @@ ROS 2  = 神经系统（收发数据、和别的程序协作）
 
 | 资源 | 位置 |
 | --- | --- |
-| 校园赛接口协议 + 代码核对 | `~/campus_ws/TDT接口与main.cpp说明.md` |
-| 分章版（方便查阅） | `~/campus_ws/TDT文档/README.md` |
-| 视觉项目源码 | `~/campus_ws/src/campus_vision/src/main.cpp` |
-| 消息定义 | `~/campus_ws/src/campus_vision/tdt_interface/msg/` |
+| 视觉项目（源码 + 完整文档包） | [`campus_vision/`](campus_vision/README.md) |
+| 校园赛接口协议 + 代码核对 | [`campus_vision/TDT接口与main.cpp说明.md`](campus_vision/TDT接口与main.cpp说明.md) |
+| 分章版（方便查阅） | [`campus_vision/TDT文档/README.md`](campus_vision/TDT文档/README.md) |
+| 项目主程序 | [`campus_vision/src/campus_vision/src/main.cpp`](campus_vision/src/campus_vision/src/main.cpp) |
+| 消息定义 | [`campus_vision/src/campus_vision/tdt_interface/msg/`](campus_vision/src/campus_vision/tdt_interface/msg/) |
 | 官方接入包 | `~/下载/ros2_auto_framework/` |
 
 ### 官方文档（外网）
